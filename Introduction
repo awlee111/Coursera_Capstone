@@ -1,6 +1,16 @@
-Find a location to open fast food restaurant in Memphis.
-Stakeholders: restaurant investors looking for good location
+Introduction
+Background:
+Whataburger makes the best fastfood burger in the US. However, the chain is only available in 10 states. Based out of Texas, expanding to TN is a GREAT idea.
+Let's find a location to open a restaurant in Memphis, TN
+Stakeholders: 
+Restaurant investors looking for good location 
+Me! A frequent customer that's tired of driving hours for a burger
 
 Data used:
-neighborhood restaurant density, with emphasis on fast food
-find location with few restaurants
+With the franchise being open 24/7, it is very popular with college/university students. 
+We will target neighborhoods around the main campuses of University of Memphis, Rhodes College, Christian Brothers University, and University of Tennessee Health Services.
+data here --
+Using Foursquare API, we explore these neighborhoods for restaurant density, with emphasis on fast food
+data here --
+Memphis is a dangerous city, we will also use crime data to determine location
+data here--
