@@ -1,7 +1,8 @@
 Introduction
 Background:
-Whataburger makes the best fastfood burger in the US. However, the chain is only available in 10 states. Based out of Texas, expanding to TN is a GREAT idea.
+Whataburger makes the best fastfood hamburger in the US. However, the chain is only available in 10 states. Based out of Texas, expanding to TN is a GREAT idea.
 Let's find a location to open a restaurant in Memphis, TN
+
 Stakeholders: 
 Restaurant investors looking for good location 
 Me! A frequent customer that's tired of driving hours for a burger
@@ -10,5 +11,17 @@ Data used:
 With the franchise being open 24/7, it is very popular with college/university students. 
 We will target areas around the universities in town, University of Memphis, Rhodes College, Christian Brothers University, and LeMoyne Owen College.
 Using Foursquare API, define locations of universites and explore these areas for fast food restaurant density
-data here:
-https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/4c65fc26-ce99-4aba-bab8-77d4ad0444e6/view?access_token=a6bc5a00d7d5af807d213b464c2397c72366b010617403c15b66004bb48ed09f
+
+Methodology:
+After narrowing down our universities and defining their locations, I used the Foursquare API to search for fastfood restaurants within a one kilometer radius of campus.
+The restaurants were plotted with folium.
+
+Results:
+The University of Memphis had 12 fast food restaurants within one kilometer, Christian Brothes (4), Rhodes College (2), and LeMoyne Owen (0).
+This was somewhat expected, since the University of Memphis is the largest of the schools in the area.
+
+Recommendation:
+I would recommend that Whataburger open a restaurant in Memphis near the Univeristy of Memphis
+
+Conclusion:
+Based on current densities of fast food restaurants around local universites, a good choice for a new fast food restaurant in Memphis would be near the University of Memphis.
